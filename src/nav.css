@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+    background-color: transparent;
+}
+.navText{
+    color: #ecd7d0;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.navText:hover{
+    border-bottom: 0.2rem solid #F0134D;
+    text-indent: 0.7rem;
+    /* text-decoration: underline; */
+}

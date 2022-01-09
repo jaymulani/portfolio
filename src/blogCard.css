@@ -1,0 +1,36 @@
+.blogRow{
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: space-between; */
+  margin: 1rem 3rem;
+}
+.blogCard{
+  background-color: rgba(148, 218, 255, 0.658);
+  width: 20rem;
+  height: 12rem;
+  border-radius: 0.4rem;
+}
+.blogSite{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 1rem;
+  color: #1E2334;
+  border-bottom: 2px solid #1E2334;
+}
+.blogSiteName{
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.blogLink{
+  color: #88FFF7;
+}
+.blogLink:hover{
+  color: #94DAFF;
+}
+.blogTitle{
+  padding: 0.2rem 1rem;
+  font-size: 1.2rem;
+  color: #1E2334;
+  text-align: justify;
+}
+  

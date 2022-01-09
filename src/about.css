@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.aboutBody{
+    background-image: url('./images/aboutBg.jpg') ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.aboutSide{
+    display: flex;
+    justify-content: space-around;
+}
+.leftSideAbout{
+    /* padding-top: 7rem; */
+}
+.leftSideAbout:hover .leftSideAboutImage{ 
+    background-image: url('./images/myImg.jpg');     
+}
+.leftSideAbout:hover .leftSideAboutBorder{ 
+    margin-top: 1rem;         
+    margin-left: -0.8rem;
+}
+.leftSideAboutBorder{
+    margin-top: 1.5rem;
+    position: relative;
+    margin-left: -0.2rem;
+    transition: margin-left 0.5s;
+    transition: margin-top 0.5s;
+}
+.leftSideAboutImage{
+    background-image: url('./images/myImgLayer.jpg');     
+    height: 18rem;
+    width: 18rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;   
+    top: 7.5rem;
+    left: 10.2rem;
+}
+.rightAboutContent{
+    display: flex;
+    flex-direction: column;
+    margin-left: -18rem;
+}
+.aboutMeHeading{
+    color: #F0134D;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.aboutMeHeading::after{
+    content: "";
+    display: block;
+    border: 1.5px solid #F0134D;
+    width: 7rem;
+    color: #F0134D;
+    position: relative;
+    top: 10%;
+}
+.aboutMePara{
+    padding-top: 1rem;
+    color: #ecd7d0;
+    text-align: justify;
+    width: 35rem;
+    word-wrap: break-word;
+    width: 35rem;
+}
+.contactLogo{
+    display: flex;
+    justify-content: flex-start;
+}
+.contactImg{
+   margin: 1rem;
+}

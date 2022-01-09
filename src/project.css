@@ -1,0 +1,157 @@
+.projectStructure{
+  color: #88FFF7;
+  display: flex;
+  margin: 0 8rem;
+  margin-bottom: 2.2rem;
+}
+.numbering{
+  font-size: 1.8rem;
+  color: #94DAFF;
+  font-weight: bolder;
+}
+.projDetail{
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.projTitle{
+  color: #94DAFF;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.projDescrip{
+  font-size: 1rem;
+}
+.projDescripHeading{
+  color: #94daffad;
+}
+.aboutDescriptHeading{
+  display: flex;
+  color: #94daffad;
+  cursor:pointer;
+}
+.aboutDescript{
+  width: 45rem;
+}
+.projLink{
+  padding-top: 0.3rem;
+  font-size: 1.2rem;
+  display: flex;
+}
+.projLinkIcon{
+  color: #88FFF7;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.projLinkIcon:hover{
+  color: #88FF17;
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+  .projectStructure{
+    color: #88FFF7;
+    display: flex;
+    margin: 0 8rem;
+    margin-bottom: 2.2rem;
+  }
+  .numbering{
+    font-size: 1.5rem;
+    color: #94DAFF;
+    font-weight: bolder;
+  }
+  .projDetail{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .projTitle{
+    color: #94DAFF;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .projDescrip{
+    font-size: 0.9rem;
+  }
+  .projDescripHeading{
+    color: #94daffad;
+    font-size: 0.8rem;
+  }
+  .aboutDescriptHeading{
+    display: flex;
+    color: #94daffad;
+    cursor:pointer;
+  }
+  .aboutDescript{
+    width: fit-content;
+    font-size: 0.9rem;
+  }
+  .projLink{
+    padding-top: 0.3rem;
+    font-size: 1.2rem;
+    display: flex;
+  }
+  .projLinkIcon{
+    color: #88FFF7;
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  .projLinkIcon:hover{
+    color: #88FF17;
+  }
+}
+
+@media screen and (max-width:767px){
+  .projectStructure{
+    color: #88FFF7;
+    display: flex;
+    margin: 0 1.5rem;
+    margin-bottom: 2.2rem;
+  }
+  .numbering{
+    font-size: 1.5rem;
+    color: #94DAFF;
+    font-weight: bolder;
+  }
+  .projDetail{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .projTitle{
+    color: #94DAFF;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .projDescrip{
+    font-size: 0.9rem;
+  }
+  .projDescripHeading{
+    color: #94daffad;
+    font-size: 0.8rem;
+  }
+  .aboutDescriptHeading{
+    display: flex;
+    color: #94daffad;
+    cursor:pointer;
+  }
+  .aboutDescript{
+    width: fit-content;
+    font-size: 0.9rem;
+  }
+  .projLink{
+    padding-top: 0.3rem;
+    font-size: 1rem;
+    display: flex;
+  }
+  .projLinkIcon{
+    color: #88FFF7;
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  .projLinkIcon:hover{
+    color: #88FF17;
+  }
+}
