@@ -102,6 +102,7 @@ return(
         githubLink={"https://github.com/heerpatell/BakeryShop"}
         aboutDescription={"The project  Bakers is a Web Application which is proposed in order to provide ease to bakers who bake cakes at their pace and provide it to customers"}
         video="true"
+        vlink='https://drive.google.com/file/d/1p6IxDp9X6L8IGGlwODssgUIUkLbT5XEU/view?usp=sharing'
     />
 
     <Project
@@ -113,6 +114,7 @@ return(
         aboutDescription={"This project is under Unnat Bharat Abhiyan, which is inspired by the vision of transformational change in rural development processes by leveraging knowledge institutions to help build the architecture of an Inclusive India"}
         teammember={"2"}
         video="true"
+        vlink='https://drive.google.com/file/d/1jV83O8lrPSfOHJsQxi0aIEVdmR3L4jjz/view?usp=sharing'
     />
 
     <Project
@@ -121,7 +123,8 @@ return(
         technology={"JavaScript"}
         githubLink={"https://github.com/heerpatell/units_converter"}
         aboutDescription={"units supported : Meter , Millimetre , Kilometer , Centimeter , Foot , Inch , Mile , Yard"}
-        link="true"
+        video="true"
+        vlink ='https://drive.google.com/file/d/1bMRpw-rJKMtdwpab-oSuuUb5bq7OiskQ/view?usp=sharing'
     />
 
     <Project
@@ -152,6 +155,7 @@ return(
         githubLink={"https://github.com/heerpatell/TicTacToe"}
         aboutDescription={"portfolio "}
         link="true"
+        linkDetail="https://heer-patel-portfolio.herokuapp.com/"
     />
     </section>
 

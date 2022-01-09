@@ -58,7 +58,9 @@ function Project(props) {
               }
               {
                   props.link
-                  ?<FiExternalLink className='projLinkIcon' size={19}/>
+                  ?
+                    props.linkDetail?<a href={props.linkDetail}><FiExternalLink className='projLinkIcon' size={19}/></a>
+                    :<div></div>
                   :<div></div>
               }
           </div>
