@@ -246,17 +246,14 @@ body{
     height: 15rem; */
     display: none;
   }
-  .dots{
-    display: none;
-  }
   .contactIcon{
-    display: none;
+    display: none !important;
   }
   .contIcon{
-    display: none;
+    display: none !important;
   }
   .contIcon:hover{
-    display: none;
+    display: none !important;
   }
   a{
     color: inherit;
@@ -406,17 +403,15 @@ body{
     height: 15rem; */
     display: none;
   }
-  .dots{
-    display: none;
-  }
+
   .contactIcon{
-    display: none;
+    display: none !important;
   }
   .contIcon{
-    display: none;
+    display: none !important;
   }
   .contIcon:hover{
-    display: none;
+    display: none !important;
   }
   a{
     color: inherit;
