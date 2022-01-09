@@ -142,7 +142,7 @@ return(
         title={"CA Website"}
         technology={"Bootstrap (Web Designing | Internship)"}
         githubLink={"https://github.com/heerpatell/CA_website"}
-        aboutDescription={"05"}
+        aboutDescription={"This website was made as a part of internship."}
         whatIDid={"Built 3 modules among 7"}
         teammember={"4"}
         link="true"
@@ -153,7 +153,7 @@ return(
         title={"Portfolio"}
         technology={"React Js"}
         githubLink={"https://github.com/heerpatell/TicTacToe"}
-        aboutDescription={"portfolio "}
+        aboutDescription={"My portfolio"}
         link="true"
         linkDetail="https://heer-patel-portfolio.herokuapp.com/"
     />

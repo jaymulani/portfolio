@@ -250,18 +250,13 @@ body{
     display: none;
   }
   .contactIcon{
-    color: #94DAFF;
-    position: fixed;
-    bottom: 3rem;
-    right: 3rem;
+    display: none;
   }
   .contIcon{
-    cursor: pointer;
-    margin-top: 1.5rem;
+    display: none;
   }
   .contIcon:hover{
-    color: #88FF17;
-    transform: translateY(-0.2rem);
+    display: none;
   }
   a{
     color: inherit;
@@ -412,6 +407,15 @@ body{
     display: none;
   }
   .dots{
+    display: none;
+  }
+  .contactIcon{
+    display: none;
+  }
+  .contIcon{
+    display: none;
+  }
+  .contIcon:hover{
     display: none;
   }
   a{
