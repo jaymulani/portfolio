@@ -49,7 +49,7 @@ return(
                 <a href='#section3'><div className="viewProjBtn" data-aos="zoom-in">View Projects</div></a> 
             </div>
             <div className="rightSide" data-aos="fade-up">
-                <img src={hp} alt="photo" className="rightPhoto"/>
+                <img src={hp} alt="p" className="rightPhoto"/>
             </div>
         </div>
         <div className='contactIcon'>
