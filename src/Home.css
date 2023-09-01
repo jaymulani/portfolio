@@ -109,14 +109,21 @@ body{
     justify-content: space-around;
   }
   .leftAbout{
-    left: 5rem;
-    top: 2.5rem;
-    position: relative;
-    border-radius: 2rem;
   }
   .leftSideAboutImage{
-    border-radius: 0.3rem;
-    object-fit: cover;
+    background-image: url('./images/myImgLayer.jpg');     
+    height: 18rem;
+    width: 18rem;
+    left: 7rem;
+    top: 2.5rem;
+    background-size: contain;
+    position: relative;
+  }
+  .leftSideAboutImage:hover{
+    background-image: url('./images/myImg.jpg');     
+    height: 18rem;
+    width: 18rem;
+    transform: translateY(-0.5rem);
   }
   .meHeading{
     color: #88FFF7;
@@ -140,7 +147,7 @@ body{
   .lineVertical::after{
     content: "";
     display: inline-block;
-    height: 17rem;
+    height: 12rem;
     transform: translateY(-2rem);
     margin-left: 1rem;
     border: 1px solid #88FF17;
@@ -276,10 +283,21 @@ body{
     justify-content: space-around;
   }
   .leftAbout{
-    display: none;
   }
   .leftSideAboutImage{
-    display: none;
+    background-image: url('./images/myImgLayer.jpg');     
+    height: 15rem;
+    width: 15rem;
+    left: 3rem;
+    top: 2.5rem;
+    background-size: contain;
+    position: relative;
+  }
+  .leftSideAboutImage:hover{
+    background-image: url('./images/myImg.jpg');     
+    height: 15rem;
+    width: 15rem;
+    transform: translateY(-0.5rem);
   }
   .meHeading{
     color: #88FFF7;
@@ -423,10 +441,13 @@ body{
     justify-content: space-around;
   }
   .leftAbout{
-    display: none;
   }
   .leftSideAboutImage{
-    display: none;
+    margin-left: 5rem;
+    background-image: url('./images/myImgLayer.jpg');     
+    height: 15rem;
+    width: 15rem;
+    background-size: contain;
   }
   .meHeading{
     color: #88FFF7;
@@ -451,7 +472,7 @@ body{
   .lineVertical::after{
     content: "";
     display: inline-block;
-    height: 17rem;
+    height: 12rem;
     transform: translateY(-2rem);
     margin-left: 1rem;
     border: 1px solid #88FF17;
