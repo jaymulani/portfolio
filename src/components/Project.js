@@ -5,7 +5,7 @@ import '../project.css'
 
 function Project(props) {
 
-    const [aboutProj,setAboutProj] = useState('false')
+    const [aboutProj,setAboutProj] = useState('true')
      
     const handleDescription = () => {
         aboutProj ? setAboutProj(false) : setAboutProj(true)
@@ -13,7 +13,7 @@ function Project(props) {
 
     return (
     <>
-    
+    {console.log(aboutProj)}
     <div className="projectStructure" data-aos="fade-right">
         <div className="numbering">{props.number}*</div>
         <div className="projDetail">
@@ -42,7 +42,14 @@ function Project(props) {
           }
           <div className="projLink">
               <div>
-                  <a href={props.githubLink}><FiGithub className='projLinkIcon' size={19}/></a>
+                  {
+                    props.github
+                    ?
+                    props.githubLink
+                        ?<a href={props.githubLink}><FiGithub className='projLinkIcon' size={19}/></a>
+                        :<div></div>
+                    :<div></div>
+                  }
               </div>
               <div>
                   
