@@ -1,13 +1,13 @@
 import React,{useState,useEffect} from 'react'
 import Project from './components/Project';
 import BlogCard from './components/BlogCard.js';
-import hp from './images/portraitImg.png';
 import './Home.css'
 import Nav from './components/Nav';
 import {FiGithub,FiLinkedin,FiInstagram,FiMail} from 'react-icons/fi';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import HashLoader from "react-spinners/HashLoader";
+import myImage from './images/myImg.jpg'
 
 function Home() {
 
@@ -49,7 +49,7 @@ return(
                 <a href='#section3'><div className="viewProjBtn" data-aos="zoom-in">View Projects</div></a> 
             </div>
             <div className="rightSide" data-aos="fade-up">
-                <img src={hp} alt="p" className="rightPhoto"/>
+                {/* <img src={hp} alt="photo" className="rightPhoto"/> */}
             </div>
         </div>
         <div className='contactIcon'>
@@ -66,25 +66,26 @@ return(
         <div className='aboutPage'> 
             
             <div className='leftAbout'>
-                <div className="leftSideAboutImage" data-aos="zoom-in-right">
-                    {/* <img src={myImage} height={280} width={300}/> */}
-                </div>
-                
+                <img data-aos="zoom-in-right" className="leftSideAboutImage" 
+                src={myImage} height={280} width={300}
+                />
             </div>
 
             <div className='rightAbout'>
                 <div className='meHeading' data-aos="fade-in">Me and Myself</div>
                 <div className='aboutPara' >
                     <div data-aos="zoom-out-up">
-                    Third year computer engineering tech-savvy who's passionate about 
-                    learning tech stuff. I possess self-motivated, well-organised personality 
-                    when it comes to develope projects. I'm currently exloring web developement.
+                    Graduate Enginnering tech-savvy student who's passionate about applying  
+                    problem solving skills and learning tech stuff.
+                    I possess self-motivated, well-organised personality 
+                    when it comes to develope projects. 
                     <br/><br/>
                     My zeal for vector art encourages me for illustration. 
                     Besides tech stuff I like to pass my leisure times in outdoor activities 
                     ,cooking ,binge watching ,learning new softwares.
-
-
+                    <br/><br/>
+                    I did my bachelors in computer engineering from Charusat University(2019-2023).
+                    Currently I am pursuing my masters in engineering in Electrical and Computer engineering from University of Waterloo(2023-2025).
                     </div>
                     <div className='lineVertical'></div>
                 </div>
@@ -95,10 +96,21 @@ return(
 
     <section className='projectPage' id="section3">
     <h2 className="headName" data-aos="fade-in">Projects</h2>
+    
     <Project
         number={"01"}
+        title={"DEVELOPMENT OF GNSS & PSEUDOLITE HYBRID POSITIONING ALGORITHMS"}
+        technology={"Matlab, Python, C++"}
+        github="false"
+        // githubLink={"https://github.com/heerpatell/BakeryShop"}
+        aboutDescription={"Did Last semester internship @ ISRO(Indian Space Research and Organisation). Carried out research and wrote a research paper on Combination of NavIC and Pseudolite positioning algorithms which finds applications in a myriad of areas such as automatic landing of aircraft, landing of Reusable launch vehicle, mining, GNSS obstructed environments (inside long tunnels) coastal and marine environment"}
+    />
+
+    <Project
+        number={"02"}
         title={"Online Bakery Shop"}
         technology={"MERN Stack"}
+        github="true"
         githubLink={"https://github.com/heerpatell/BakeryShop"}
         aboutDescription={"The project  Bakers is a Web Application which is proposed in order to provide ease to bakers who bake cakes at their pace and provide it to customers"}
         video="true"
@@ -106,10 +118,11 @@ return(
     />
 
     <Project
-        number={"02"}
+        number={"03"}
         title={"for primary school students"}
         technology={"Unity , C#"}
         whatIDid={"Half Module (Capital alphabet module with Phonic &Visual Effect ,added Translation ,Animation)"}
+        github="true"
         githubLink={"https://github.com/heerpatell/SgpSem4"}
         aboutDescription={"This project is under Unnat Bharat Abhiyan, which is inspired by the vision of transformational change in rural development processes by leveraging knowledge institutions to help build the architecture of an Inclusive India"}
         teammember={"2"}
@@ -118,9 +131,10 @@ return(
     />
 
     <Project
-        number={"03"}
+        number={"04"}
         title={"Unit Convertor"}
         technology={"JavaScript"}
+        github="true"
         githubLink={"https://github.com/heerpatell/units_converter"}
         aboutDescription={"units supported : Meter , Millimetre , Kilometer , Centimeter , Foot , Inch , Mile , Yard"}
         video="true"
@@ -128,9 +142,10 @@ return(
     />
 
     <Project
-        number={"04"}
+        number={"05"}
         title={"Tic Tac Toe"}
         technology={"Flutter"}
+        github="true"
         githubLink={"https://github.com/heerpatell/TicTacToe"}
         aboutDescription={"Two player can play this game and scored will be displayed appropriately."}
         video="true"
@@ -138,9 +153,10 @@ return(
     />
 
     <Project
-        number={"05"}
+        number={"06"}
         title={"CA Website"}
         technology={"Bootstrap (Web Designing | Internship)"}
+        github="true"
         githubLink={"https://github.com/heerpatell/CA_website"}
         aboutDescription={"This website was made as a part of internship."}
         whatIDid={"Built 3 modules among 7"}
@@ -149,9 +165,10 @@ return(
     />
 
     <Project
-        number={"06"}
+        number={"07"}
         title={"Portfolio"}
         technology={"React Js"}
+        github="true"
         githubLink={"https://github.com/heerpatell/TicTacToe"}
         aboutDescription={"My portfolio"}
         link="true"
