@@ -66,7 +66,7 @@ return(
         <div className='aboutPage'> 
             
             <div className='leftAbout'>
-                <img data-aos="zoom-in-right" className="leftSideAboutImage" 
+                <img data-aos="zoom-in-right" alt='Heer Patel' className="leftSideAboutImage" 
                 src={myImage} height={280} width={300}
                 />
             </div>
