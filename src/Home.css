@@ -116,7 +116,7 @@ body{
   }
   .leftSideAboutImage{
     border-radius: 0.3rem;
-    object-fit: cover;
+    /* object-fit: cover; */
   }
   .meHeading{
     color: #88FFF7;

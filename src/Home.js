@@ -44,8 +44,8 @@ return(
         <div className="preview">
             <div className="leftSide">
                 <div className="hiLine" data-aos="flip-right" >Hi, I'm</div>
-                <div className="name" data-aos="fade-up">Heer</div>
-                <div className="surname" data-aos="fade-up">Patel</div>
+                <div className="name" data-aos="fade-up">Jay</div>
+                <div className="surname" data-aos="fade-up">Mulani</div>
                 <a href='#section3'><div className="viewProjBtn" data-aos="zoom-in">View Projects</div></a> 
             </div>
             <div className="rightSide" data-aos="fade-up">
@@ -53,10 +53,9 @@ return(
             </div>
         </div>
         <div className='contactIcon'>
-            <div className='contIcon'><a href='https://github.com/heerpatell'><FiGithub size={23}/></a></div>
-            <div className='contIcon'><a href='https://www.linkedin.com/in/heer-patel-700235206/'><FiLinkedin size={23}/></a></div>
-            <div className='contIcon'><a href='https://www.instagram.com/heer.p9/'><FiInstagram size={23}/></a></div>
-            <div className='contIcon' ><a href='mailto:heerpatel291@gmail.com?subject = ContactPortfolio&body = Message'><FiMail size={23}/></a></div>
+            <div className='contIcon'><a href='https://github.com/jaymulani'><FiGithub size={23}/></a></div>
+            <div className='contIcon'><a href='https://www.linkedin.com/in/jay-mulani-a6443a1b7/'><FiLinkedin size={23}/></a></div>
+            <div className='contIcon' ><a href='mailto:jaymulani26@gmail.com?subject = ContactPortfolio&body = Message'><FiMail size={23}/></a></div>
             <div className='contaDottedLine'></div>
         </div>
     </section>
@@ -75,17 +74,12 @@ return(
                 <div className='meHeading' data-aos="fade-in">Me and Myself</div>
                 <div className='aboutPara' >
                     <div data-aos="zoom-out-up">
-                    Graduate Enginnering tech-savvy student who's passionate about applying  
-                    problem solving skills and learning tech stuff.
-                    I possess self-motivated, well-organised personality 
-                    when it comes to develope projects. 
+                    As a highly motivated software developer with a Master of Applied Computer Science degree from Dalhousie University, I am eager to bring my technical expertise and passion for innovation to a dynamic organization.
+
                     <br/><br/>
-                    My zeal for vector art encourages me for illustration. 
-                    Besides tech stuff I like to pass my leisure times in outdoor activities 
-                    ,cooking ,binge watching ,learning new softwares.
+                    With a strong background in object-oriented programming, database design, and web development, I am well-equipped to handle complex projects and deliver solutions that meet both user needs and business goals.
                     <br/><br/>
-                    I did my bachelors in computer engineering from Charusat University(2019-2023).
-                    Currently I am pursuing my masters in engineering in Electrical and Computer engineering from University of Waterloo(2023-2025).
+                    Throughout my academic and professional experience, I have demonstrated exceptional problem-solving skills, attention to detail, and the ability to work collaboratively with diverse teams.
                     </div>
                     <div className='lineVertical'></div>
                 </div>
@@ -99,72 +93,76 @@ return(
     
     <Project
         number={"01"}
-        title={"DEVELOPMENT OF GNSS & PSEUDOLITE HYBRID POSITIONING ALGORITHMS"}
-        technology={"Matlab, Python, C++"}
-        github="false"
-        // githubLink={"https://github.com/heerpatell/BakeryShop"}
-        aboutDescription={"Did Last semester internship @ ISRO(Indian Space Research and Organisation). Carried out research and wrote a research paper on Combination of NavIC and Pseudolite positioning algorithms which finds applications in a myriad of areas such as automatic landing of aircraft, landing of Reusable launch vehicle, mining, GNSS obstructed environments (inside long tunnels) coastal and marine environment"}
+        title={"ScraperSmart"}
+        technology={"Java, Spring Boot, React"}
+        github="true"
+        githubLink={"https://github.com/jaymulani/ScraperSmart"}
+        aboutDescription={"Scraped data from various websites such as Walmart, Costco, and Sobeys to gather information on grocery prices. Developed a comparison tool allowing consumers to make informed decisions for cost-effective grocery shopping based on the scraped data."}
     />
 
     <Project
         number={"02"}
-        title={"Online Bakery Shop"}
-        technology={"MERN Stack"}
+        title={"MarketHub"}
+        technology={"React, MongoDB, Node JS"}
         github="true"
-        githubLink={"https://github.com/heerpatell/BakeryShop"}
-        aboutDescription={"The project  Bakers is a Web Application which is proposed in order to provide ease to bakers who bake cakes at their pace and provide it to customers"}
-        video="true"
-        vlink='https://drive.google.com/file/d/1p6IxDp9X6L8IGGlwODssgUIUkLbT5XEU/view?usp=sharing'
+        githubLink={"https://github.com/jaymulani/MarketHub"}
+        aboutDescription={"Developed an online marketplace platform featuring real-time in-app chat and comments for enhanced user engagement. Integrated secure payment method such as Stripe to ensure smooth and protected transactions within the platform."}
+        // video="true"
+        // vlink='https://drive.google.com/file/d/1p6IxDp9X6L8IGGlwODssgUIUkLbT5XEU/view?usp=sharing'
     />
 
     <Project
         number={"03"}
-        title={"for primary school students"}
-        technology={"Unity , C#"}
-        whatIDid={"Half Module (Capital alphabet module with Phonic &Visual Effect ,added Translation ,Animation)"}
+        title={"Kubernetes"}
+        technology={"Kubernetes, Docker, REact, Node JS"}
+        // whatIDid={"Half Module (Capital alphabet module with Phonic &Visual Effect ,added Translation ,Animation)"}
         github="true"
-        githubLink={"https://github.com/heerpatell/SgpSem4"}
-        aboutDescription={"This project is under Unnat Bharat Abhiyan, which is inspired by the vision of transformational change in rural development processes by leveraging knowledge institutions to help build the architecture of an Inclusive India"}
-        teammember={"2"}
-        video="true"
-        vlink='https://drive.google.com/file/d/1jV83O8lrPSfOHJsQxi0aIEVdmR3L4jjz/view?usp=sharing'
+        githubLink={"https://github.com/jaymulani/Kubernetes"}
+        aboutDescription={"Deployed workloads to Google Kubernetes Engine (GKE), ensuring seamless inter and intra-pod communication for optimized application performance. Built cloud-native CI/CD pipelines for efficient and automated deployment processes."}
+        // teammember={"2"}
+        // video="true"
+        // vlink='https://drive.google.com/file/d/1jV83O8lrPSfOHJsQxi0aIEVdmR3L4jjz/view?usp=sharing'
     />
 
     <Project
         number={"04"}
-        title={"Unit Convertor"}
-        technology={"JavaScript"}
+        title={"ServerlessGame"}
+        technology={"AWS, GCP, Node JS, React JS"}
         github="true"
-        githubLink={"https://github.com/heerpatell/units_converter"}
-        aboutDescription={"units supported : Meter , Millimetre , Kilometer , Centimeter , Foot , Inch , Mile , Yard"}
-        video="true"
-        vlink ='https://drive.google.com/file/d/1bMRpw-rJKMtdwpab-oSuuUb5bq7OiskQ/view?usp=sharing'
+        githubLink={"https://github.com/jaymulani/ServerlessGame"}
+        aboutDescription={"Developed a multi-cloud serverless online trivia game, enabling real-time team competitions, personalized question selection, and global leaderboards. Implemented CI/CD pipelines with Google Cloud Run, automating the deployment of containerized applications and improving release efficiency."}
+        // video="true"
+        // vlink ='https://drive.google.com/file/d/1bMRpw-rJKMtdwpab-oSuuUb5bq7OiskQ/view?usp=sharing'
     />
 
     <Project
         number={"05"}
-        title={"Tic Tac Toe"}
-        technology={"Flutter"}
-        github="true"
-        githubLink={"https://github.com/heerpatell/TicTacToe"}
-        aboutDescription={"Two player can play this game and scored will be displayed appropriately."}
-        video="true"
-        vlink = 'https://www.linkedin.com/posts/heer-patel-700235206_learning-flutter-dart-activity-6786329905295634432-93xm'
+        title={"Royal Dine Hotel Website"}
+        technology={"- - -"}
+        link="true"
+        linkDetail="https://royaldinesurat.com/"
+        aboutDescription={"Developed a sleek and user-friendly hotel website that offers seamless online booking, detailed room information, and interactive features to enhance guest experience."}
     />
 
     <Project
         number={"06"}
-        title={"CA Website"}
-        technology={"Bootstrap (Web Designing | Internship)"}
-        github="true"
-        githubLink={"https://github.com/heerpatell/CA_website"}
-        aboutDescription={"This website was made as a part of internship."}
-        whatIDid={"Built 3 modules among 7"}
-        teammember={"4"}
+        title={"Sifat International Hotel"}
+        technology={"- - -"}
         link="true"
+        linkDetail="https://www.hotelsifatinternational.com/"
+        aboutDescription={"Developed a sleek and user-friendly hotel website that offers seamless online booking, detailed room information, and interactive features to enhance guest experience."}
     />
 
     <Project
+        number={"07"}
+        title={"Orange International Hotel"}
+        technology={"- - -"}
+        link="true"
+        linkDetail="https://hotelorangeinternational.com/"
+        aboutDescription={"Developed a sleek and user-friendly hotel website that offers seamless online booking, detailed room information, and interactive features to enhance guest experience."}
+    />
+
+    {/* <Project
         number={"07"}
         title={"Portfolio"}
         technology={"React Js"}
@@ -173,7 +171,7 @@ return(
         aboutDescription={"My portfolio"}
         link="true"
         linkDetail="https://heer-patel-portfolio.herokuapp.com/"
-    />
+    /> */}
     </section>
 
     {/* blog */}
@@ -190,7 +188,7 @@ return(
 
     {/* footer */}
     <div className="footer">
-        Built with ❤ in React.js by Heer Patel   
+        Built with React.js by Jay Mulani   
     </div>
     </>
 )

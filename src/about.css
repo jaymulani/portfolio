@@ -32,7 +32,7 @@
 }
 .leftSideAboutImage{
     background-image: url('./images/myImgLayer.jpg');     
-    height: 18rem;
+    height: 100%;
     width: 18rem;
     background-size: contain;
     background-repeat: no-repeat;
